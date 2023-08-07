@@ -1,0 +1,7 @@
+let in1 = document.getElementById("in-out")
+let add = document.getElementById("add")
+let sub = document.getElementById("sub")
+let mul = document.getElementById("mul")
+let div = document.getElementById("div")
+let exp = document.getElementById("exp")
+let mod = document.getElementById("mod")
