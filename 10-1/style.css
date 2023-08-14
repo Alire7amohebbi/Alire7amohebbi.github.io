@@ -1,0 +1,67 @@
+@font-face {
+  font-family: digital;
+  src: url(DS-Digital.ttf);
+}
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+:root {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: calc(10px + 0.5vw);
+    line-height: 1.2;
+}
+body {
+	background-color: Beige;
+	color: DimGray;
+}
+p,h1,h2,h3,h4,h5 {
+    margin-top: .5em;
+    margin-bottom: .25em; 
+}
+p { font-size: 1em; }
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.17em; }
+h4 { font-size: 1em; }
+h5 { font-size: .83em; }
+h6 { font-size: .75em; }
+main {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 5fr 1fr;
+    grid-gap: .25em;
+    margin: 1em auto;
+    padding: .25em;
+	width: 18em;
+	background-color: LightGray;
+    border: 2px solid DimGray;
+    border-radius: 4px;
+    box-shadow: 0 0 4em 0 DimGray inset;
+    font-size: 2rem;
+}
+button {
+    padding: .5em;
+    background: Khaki;
+    color: DimGray;
+	border: DimGray solid 2px;
+	border-radius: 4px;
+    font-size: 1em;
+    font-weight: bold;
+	transition: all .5s;
+}
+button:hover {
+	color: Beige;
+	box-shadow: 0 0 2em 0 DimGray inset;
+}
+input {
+    font-family: digital;
+    font-size: 2em;
+    width: 100%;
+}
+#calc {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+}
