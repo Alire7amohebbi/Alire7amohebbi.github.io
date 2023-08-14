@@ -1,0 +1,44 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+:root {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: calc(10px + 0.5vw);
+    line-height: 1.2;
+}
+body {
+    font-size: 1rem;
+    background: #044;
+    color: #ccc;
+    background-image: url(velvet-bg.jpg);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 4em auto;
+    padding: 2em;
+    width: 24em;
+    height: 24em;
+    border-radius: .25em;
+    color: #444;
+    background: #eee;
+    font-size: 1rem;
+}
+p,h1,h2,h3,h4,h5 {
+    margin: 0 .5em;
+}
+p { font-size: 1em; }
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.17em; }
+h4 { font-size: 1em; }
+h5 { font-size: .83em; }
+h6 { font-size: .75em; }
+small { color: #d44; }
+#ball{
+    position: relative;
+    transition: all 0.5s;
+}
